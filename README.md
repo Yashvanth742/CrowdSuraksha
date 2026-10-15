@@ -30,7 +30,7 @@ OpenCV + YOLO is optional and not required for the initial prototype.
 
 The following diagram illustrates the CrowdSuraksha system architecture, data flow, and emergency route-planning process.
 
-![CrowdSuraksha System Architecture](docs/architecture.png)
+![CrowdSuraksha System Architecture](https://github.com/Yashvanth742/CrowdSuraksha/blob/main/CrowdSuraksha%20System%20Architecture%20and%20Emergency%20Flows.png?raw=true)
 
 
 ## Repository structure
