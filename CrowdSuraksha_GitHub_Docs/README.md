@@ -25,6 +25,12 @@ CrowdSuraksha is a proposed prototype for improving crowd-risk awareness and eme
 
 OpenCV + YOLO is optional and not required for the initial prototype.
 
+## System Architecture
+
+The following diagram illustrates the CrowdSuraksha system architecture, data flow, and emergency route-planning process.
+
+![CrowdSuraksha System Architecture](docs/architecture.png)
+
 ## Repository structure
 
 ```text
