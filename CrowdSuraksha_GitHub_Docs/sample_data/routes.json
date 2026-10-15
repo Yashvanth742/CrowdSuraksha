@@ -1,0 +1,56 @@
+{
+  "note": "Fictional graph for demonstration only; not a real venue map.",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Main Gate"
+    },
+    {
+      "id": "B",
+      "label": "Central Junction"
+    },
+    {
+      "id": "C",
+      "label": "Medical Point"
+    },
+    {
+      "id": "D",
+      "label": "North Gate"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "distance": 100,
+      "blocked": false
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "distance": 80,
+      "blocked": false
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "distance": 120,
+      "blocked": false
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "distance": 90,
+      "blocked": true
+    }
+  ],
+  "example": {
+    "start": "A",
+    "destination": "C",
+    "expected_route_if_blocked_edges_are_excluded": [
+      "A",
+      "B",
+      "C"
+    ]
+  }
+}
